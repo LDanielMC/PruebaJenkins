@@ -4,8 +4,8 @@ app = Flask(__name__)
 
 
 @app.route('/')
-def hello_world():  # put application's code here
-    return '¡Aplicación desplegada con Jenkins y Docker!'
+def hello_world ():  # put application's code here
+    return '¡Pipeline funcionando correctamente con Jenkins :)!'
 
 
 if __name__ == '__main__':
